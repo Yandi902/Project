@@ -1,0 +1,1664 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/FW/test2-removebg-preview.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Fragrance World</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#testimonial" class="nav__logo">
+          <img src="assets/FW/test2-removebg-preview.png" alt="logo_image" />
+          Fragrance World
+        </a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="ri-home-4-line"></i>
+                <span>Home</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#featured" class="nav__link">
+                <i class="ri-product-hunt-line"></i>
+                <span>Product</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#new" class="nav__link">
+                <i class="ri-price-tag-3-line"></i>
+                <span>Offer</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#testimonial" class="nav__link">
+                <i class="ri-hand-coin-line"></i>
+                <span>Ordering</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="ri-account-pin-box-line"></i>
+                <span>About Me</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#js" class="nav__link">
+                <i class="ri-javascript-line"></i>
+                <span>JavaScript</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__actions">
+          <!-- Button Search -->
+          <i class="ri-search-2-line search-button" id="search-button"></i>
+
+          <!-- Button Login -->
+          <i class="ri-user-line login-button" id="login-button"></i>
+
+          <!-- Dark Mode -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== SEARCH ====================-->
+    <div class="search" id="search-content">
+      <form action="" class="search__form">
+        <i class="ri-search-2-line search-button search__icon"></i>
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="What Are You Looking For?"
+          class="search__input"
+        />
+      </form>
+
+      <i class="ri-close-line search__close" id="search-close"></i>
+    </div>
+
+    <!--==================== LOGIN ====================-->
+    <div class="login grid" id="login-content">
+      <form action="" class="login__form grid">
+        <h3 class="login__title">Log In</h3>
+
+        <div class="login__group grid">
+          <div>
+            <label for="login-email" class="login__label">Email</label>
+            <input
+              type="email"
+              placeholder="Write your email"
+              id="login-email"
+              class="login__input"
+            />
+          </div>
+
+          <div>
+            <label for="login-pass" class="login__label">Password</label>
+            <input
+              type="password"
+              placeholder="Enter your password"
+              id="login-pass"
+              class="login__input"
+            />
+          </div>
+        </div>
+
+        <div>
+          <span class="login__signup">
+            You do not have an account? <a href="#">Sign Up</a>
+          </span>
+
+          <a href="#" class="login__forgot"> You forgot your password </a>
+
+          <button type="submit" class="login__button button">Log In</button>
+        </div>
+      </form>
+
+      <i class="ri-close-line login__close" id="login-close"></i>
+    </div>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              Parfum Berkualitas <br />
+              Harga Terjangkau <br />
+              The Fragrance World
+            </h1>
+
+            <p class="home__description">
+              Fragrance World merupakan merek parfum populer yang menawarkan
+              berbagai macam wewangian untuk pria dan wanita. Berasal dari
+              Dubai, Uni Emirat Arab. Fragrance World telah mendapatkan reputasi
+              dalam menyediakan parfum berkualitas tinggi dan tahan lama dengan
+              harga yang terjangkau.
+            </p>
+
+            <a href="#featured" class="button">Get Now!!</a>
+          </div>
+
+          <div class="home__images">
+            <div class="home__swiper swiper">
+              <div class="swiper-wrapper">
+                <article class="home__article swiper-slide">
+                  <img
+                    src="assets/FW/Picsart/1.png"
+                    alt="image"
+                    class="home__img"
+                  />
+                </article>
+
+                <article class="home__article swiper-slide">
+                  <img
+                    src="assets/FW/Picsart/10.png"
+                    alt="image"
+                    class="home__img"
+                  />
+                </article>
+
+                <article class="home__article swiper-slide">
+                  <img
+                    src="assets/FW/Picsart/16.png"
+                    alt="image"
+                    class="home__img"
+                  />
+                </article>
+
+                <article class="home__article swiper-slide">
+                  <img
+                    src="assets/FW/Picsart/18.png"
+                    alt="image"
+                    class="home__img"
+                  />
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section">
+        <div class="services__container container grid">
+          <article class="services__card">
+            <i class="ri-box-3-line"></i>
+            <h3 class="services__title">Gratis Ongkos Kirim</h3>
+            <p class="services__description">Pembelian Minimal 220 Ribu</p>
+          </article>
+
+          <article class="services__card">
+            <i class="ri-store-2-line"></i>
+            <h3 class="services__title">Produk Original</h3>
+            <p class="services__description">100% Dijamin Produk Original</p>
+          </article>
+
+          <article class="services__card">
+            <i class="ri-secure-payment-line"></i>
+            <h3 class="services__title">Pembayaran Aman</h3>
+            <p class="services__description">Keamanan Pembayaran Terjamin</p>
+          </article>
+
+          <article class="services__card">
+            <i class="ri-customer-service-2-line"></i>
+            <h3 class="services__title">Customer Support</h3>
+            <p class="services__description">Melayani Selama 24/7</p>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== FEATURED ====================-->
+      <section class="featured section" id="featured">
+        <h2 class="section__title">Lini Fragrance World</h2>
+
+        <div class="featured__container container">
+          <div class="featured__swiper swiper">
+            <h1 class="featured__titles">MAN</h1>
+            <div class="swiper-wrapper">
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/1.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Bavaria Intense Man</h2>
+                <p class="featured__test">
+                  Rum, Spices <br />
+                  Leather, Tuberose <br />
+                  Guaiac Wood, Benzoin
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/4.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Canale Di Blue</h2>
+                <p class="featured__test">
+                  Lemon Zest, Bergamot <br />
+                  Lavender, Pineapple <br />
+                  Sandalwood, Tonka Been
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/7.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Des Tentations Flame</h2>
+                <p class="featured__test">
+                  Mandarin Orange <br />
+                  Geranium and Rose <br />
+                  Vanilla, Tonka Been
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/8.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Des Tentations</h2>
+                <p class="featured__test">
+                  Mint, Green Apple <br />
+                  Tonka Been, Geranium <br />
+                  Vetiver, Atlas Cedar
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/23.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Proud Of You ...</h2>
+                <p class="featured__test">
+                  Rum, Elemi, Bergamot<br />
+                  Lavender and Davana<br />
+                  Chesnut, Patchouli
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/31.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Suave The Parfum ...</h2>
+                <p class="featured__test">
+                  Bergamot <br />
+                  Lavender, Nutmeg <br />
+                  Amborxan, Vanilla
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp225.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/11.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">L Uomo Man</h2>
+                <p class="featured__test">
+                  Ginger, Bergamot, Lemon<br />
+                  Spices, White Pepper <br />
+                  Tonka Been, Vetiver
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp225.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/28.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Star Men</h2>
+                <p class="featured__test">
+                  Coriander, Lavender<br />
+                  Honey, Jasmine<br />
+                  Sandalwood, Cofee
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/29.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Star Men Nebula</h2>
+                <p class="featured__test">
+                  Orange, Bergamot<br />
+                  Malt, Patchouli <br />
+                  Pear, Amber, Vanilla
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/30.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Suave Man</h2>
+                <p class="featured__test">
+                  Pepper, Calabrian Bergamot<br />
+                  Geranium, Pink Pepper <br />
+                  Cedar, Ambroxan
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+
+          <div class="featured__swiper swiper">
+            <h1 class="featured__titles">WOMAN</h1>
+            <div class="swiper-wrapper">
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/10.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">French Portrait</h2>
+                <p class="featured__test">
+                  Rose, Raspberry<br />
+                  Incense and Sandalwood<br />
+                  Vetiver, Musk, Amber
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/12.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Gabrielle Bloom</h2>
+                <p class="featured__test">
+                  Jasmine<br />
+                  Tuberose<br />
+                  Rangoon Creeper
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/35.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Vanilla So Sweet</h2>
+                <p class="featured__test">
+                  Incense, Pink Pepper<br />
+                  Bulgarian Rose, Cedar<br />
+                  Vanilla and Benzoin
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/24.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Proud Of You Woman</h2>
+                <p class="featured__test">
+                  Raspberry, Neroli, Lemon<br />
+                  Rose<br />
+                  Vanilla, Amberwood, Musk
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/19.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Orchid Nera</h2>
+                <p class="featured__test">
+                  Truffle, Gardenia<br />
+                  Orchid, Spices, Lotus<br />
+                  Mexican Chocolate, Amber
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/17.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Mon Gracieuse</h2>
+                <p class="featured__test">
+                  Lavender, Mandarin Orange<br />
+                  Tahitian Vanilla, Rose<br />
+                  Coumarin, White Musk
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp225.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/22.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Pose As Rose</h2>
+                <p class="featured__test">
+                  Bulgarian Rose<br />
+                  Violet, Heliotrope<br />
+                  Musk, Tonka Been
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp225.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/27.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Serene Rose Woman</h2>
+                <p class="featured__test">
+                  Pear, Lemon, Bergamot<br />
+                  Rose and Jasmine <br />
+                  Moss and Patchouli
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp225.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/34.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Ur Way Intense</h2>
+                <p class="featured__test">
+                  Orange Blossom<br />
+                  Indian Tuberose<br />
+                  Madagascar Vanilla
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/3.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Barakkat Aqua Ste...</h2>
+                <p class="featured__test">
+                  Lime, Petitgrain<br />
+                  Jasmine, Hedione, Mimosa<br />
+                  Musk
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+
+          <div class="featured__swiper swiper">
+            <h1 class="featured__titles">UNISEX</h1>
+            <div class="swiper-wrapper">
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/2.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Barakkat Gentle Gold</h2>
+                <p class="featured__test">
+                  Vanilla, Amber<br />
+                  Musk, Woodsy Notes<br />
+                  Juniper Berries, Coriander
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/6.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Cocktail Intense</h2>
+                <p class="featured__test">
+                  Cognac<br />
+                  Cinnamon, Tonka Been, Oat<br />
+                  Praline, Vanilla, Sandalwood
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/13.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Intro Aftermath</h2>
+                <p class="featured__test">
+                  Rum, Vanilla<br />
+                  Tobacco<br />
+                  Cinnamon
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/16.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Mocha Wood</h2>
+                <p class="featured__test">
+                  Hazelnut, Coffe, Saffron<br />
+                  Tobacco, Tonka Been<br />
+                  Indian Oud, Fir Resin
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/18.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">PNo.4 After Love</h2>
+                <p class="featured__test">
+                  Bitter Orange Blossom<br />
+                  Aromatic Spices<br />
+                  Musk, Amber
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/20.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Oud Wonder</h2>
+                <p class="featured__test">
+                  Agarwood (Oud)<br />
+                  Brazilian Rosewood<br />
+                  Cardamom, Sichuan Pepper
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp225.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/21.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Picky Rose</h2>
+                <p class="featured__test">
+                  Turmeric, Sichuan Pepper<br />
+                  May Rose, Turkish Rose<br />
+                  Patchouli and Tonka Been
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp225.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/25.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Pur Classique</h2>
+                <p class="featured__test">
+                  Rose and Cumin<br />
+                  Vetiver and Cedar<br />
+                  Olibanum and Labdanum
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp225.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/32.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Tobacco Gourmand</h2>
+                <p class="featured__test">
+                  Tobacco, Tobacco Leaf<br />
+                  Honey, Smoke, Plum<br />
+                  White Tobacco, Citruses
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+
+              <article class="featured__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/36.png"
+                  alt="image"
+                  class="featured__img"
+                />
+
+                <h2 class="featured__title">Velvet Rouge</h2>
+                <p class="featured__test">
+                  White Tea and Pink Pepper<br />
+                  Rose, Jasmine, Iris<br />
+                  Patchouli, Vetiver, Musk
+                </p>
+                <div class="featured__prices">
+                  <span class="featured__discount">Rp210.000</span>
+                </div>
+
+                <a href="#testimonial" class="button">Belanja Sekarang!</a>
+
+                <div class="featured__actions">
+                  <button><i class="ri-search-2-line"></i></button>
+                  <button><i class="ri-heart-3-line"></i></button>
+                  <button><i class="ri-eye-line"></i></button>
+                </div>
+              </article>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== DISCOUNT ====================-->
+      <section class="discount section">
+        <div class="discount__container container grid">
+          <div class="discount__data">
+            <h2 class="discount__title section__title">
+              Penawaran Menarik Tiap Harinya
+            </h2>
+
+            <p class="discount__description">
+              Dapatkan penawaran menarik tiap harinya berupa diskon potongan
+              harga, beli 2 gratis 1 ataupun gratis ongkir tanpa minimal
+              pembelian.
+            </p>
+
+            <a href="#new" class="button">Belanja Sekarang!</a>
+          </div>
+
+          <div class="discount__images">
+            <img
+              src="assets/FW/Picsart/16.png"
+              alt="image"
+              class="discount__img-1"
+            />
+            <img
+              src="assets/FW/Picsart/23.png"
+              alt="image"
+              class="discount__img-2"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== NEW ====================-->
+      <section class="new section" id="new">
+        <h2 class="section__title">Penawaran Terbaik Hari Ini</h2>
+
+        <div class="new__container container">
+          <div class="new__swiper swiper">
+            <h2 class="featured__titles">MAN</h2>
+            <div class="swiper-wrapper">
+              <a href="#testimonial" class="new__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/1.png"
+                  alt="image"
+                  class="new__img"
+                />
+
+                <div>
+                  <h2 class="new__title">Bavaria Intense Man</h2>
+                  <div class="new__prices">
+                    <span class="new__discount">Rp195.000</span>
+                    <span class="new__price">Rp210.000</span>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#testimonial" class="new__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/4.png"
+                  alt="image"
+                  class="new__img"
+                />
+
+                <div>
+                  <h2 class="new__title">Canale Di Blue</h2>
+                  <div class="new__prices">
+                    <span class="new__discount">Rp195.000</span>
+                    <span class="new__price">Rp210.000</span>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#testimonial" class="new__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/7.png"
+                  alt="image"
+                  class="new__img"
+                />
+
+                <div>
+                  <h2 class="new__title">Des Tentations Flame</h2>
+                  <div class="new__prices">
+                    <span class="new__discount">Rp190.000</span>
+                    <span class="new__price">Rp210.000</span>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#testimonial" class="new__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/8.png"
+                  alt="image"
+                  class="new__img"
+                />
+
+                <div>
+                  <h2 class="new__title">Des Tentaions</h2>
+                  <div class="new__prices">
+                    <span class="new__discount">Rp190.000</span>
+                    <span class="new__price">Rp210.000</span>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#testimonial" class="new__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/11.png"
+                  alt="image"
+                  class="new__img"
+                />
+
+                <div>
+                  <h2 class="new__title">L Uomo Man</h2>
+                  <div class="new__prices">
+                    <span class="new__discount">Rp210.000</span>
+                    <span class="new__price">Rp225.000</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="new__swiper swiper">
+            <h2 class="featured__titles">WOMAN</h2>
+            <div class="swiper-wrapper">
+              <a href="#testimonial" class="new__card swiper-slide">
+                <img src="assets/FW/Picsart/10.png"" alt="image"
+                class="new__img" />
+
+                <div>
+                  <h2 class="new__title">French Potrait Woman</h2>
+                  <div class="new__prices">
+                    <span class="new__discount">Rp190.000</span>
+                    <span class="new__price">Rp210.000</span>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#testimonial" class="new__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/34.png"
+                  alt="image"
+                  class="new__img"
+                />
+
+                <div>
+                  <h2 class="new__title">Ur Way Intense</h2>
+                  <div class="new__prices">
+                    <span class="new__discount">Rp190.000</span>
+                    <span class="new__price">Rp210.000</span>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#testimonial" class="new__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/24.png"
+                  alt="image"
+                  class="new__img"
+                />
+
+                <div>
+                  <h2 class="new__title">Proud Of You Woman</h2>
+                  <div class="new__prices">
+                    <span class="new__discount">Rp195.000</span>
+                    <span class="new__price">Rp210.000</span>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#testimonial" class="new__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/19.png"
+                  alt="image"
+                  class="new__img"
+                />
+
+                <div>
+                  <h2 class="new__title">Orchid Nera</h2>
+                  <div class="new__prices">
+                    <span class="new__discount">Rp190.000</span>
+                    <span class="new__price">Rp210.000</span>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#testimonial" class="new__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/22.png"
+                  alt="image"
+                  class="new__img"
+                />
+
+                <div>
+                  <h2 class="new__title">Pose As Rose</h2>
+                  <div class="new__prices">
+                    <span class="new__discount">Rp200.000</span>
+                    <span class="new__price">Rp225.000</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="new__swiper swiper">
+            <h2 class="featured__titles">UNISEX</h2>
+            <div class="swiper-wrapper">
+              <a href="#testimonial" class="new__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/6.png"
+                  alt="image"
+                  class="new__img"
+                />
+
+                <div>
+                  <h2 class="new__title">Cocktail Intense</h2>
+                  <div class="new__prices">
+                    <span class="new__discount">Rp190.000</span>
+                    <span class="new__price">Rp210.000</span>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#testimonial" class="new__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/13.png"
+                  alt="image"
+                  class="new__img"
+                />
+
+                <div>
+                  <h2 class="new__title">Intro Aftermath</h2>
+                  <div class="new__prices">
+                    <span class="new__discount">Rp195.000</span>
+                    <span class="new__price">Rp210.000</span>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#testimonial" class="new__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/20.png"
+                  alt="image"
+                  class="new__img"
+                />
+
+                <div>
+                  <h2 class="new__title">Oud Wonder</h2>
+                  <div class="new__prices">
+                    <span class="new__discount">Rp195.000</span>
+                    <span class="new__price">Rp225.000</span>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#testimonial" class="new__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/21.png"
+                  alt="image"
+                  class="new__img"
+                />
+
+                <div>
+                  <h2 class="new__title">Picky Rose</h2>
+                  <div class="new__prices">
+                    <span class="new__discount">Rp200.000</span>
+                    <span class="new__price">Rp225.000</span>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#testimonial" class="new__card swiper-slide">
+                <img
+                  src="assets/FW/Picsart/36.png"
+                  alt="image"
+                  class="new__img"
+                />
+
+                <div>
+                  <h2 class="new__title">Velvet Rouge</h2>
+                  <div class="new__prices">
+                    <span class="new__discount">Rp190.000</span>
+                    <span class="new__price">Rp210.000</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIAL ====================-->
+      <section class="testimonial section" id="testimonial">
+        <h2 class="section__title">Order Produk Kami</h2>
+
+        <div class="testimonial__container container">
+          <div class="testimonial__swiper swiper">
+            <div class="swiper-wrapper">
+              <article class="testimonial__card swiper-slide">
+                <a
+                  href="https://wa.me/62895413427573"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-whatsapp-line"></i>
+                  <h2 class="testimonial__title">WhatsApp</h2>
+                  <p class="testimonial__description">
+                    Hubungi kami melalui WhatsApp untuk melakukan konsultasi dan
+                    pemesanan produk.
+                  </p>
+                </a>
+              </article>
+
+              <article class="testimonial__card swiper-slide">
+                <a
+                  href="https://www.instagram.com/onlyme_1512?igsh=MzJkZW1wc3d4cWdj"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-instagram-line"></i>
+                  <h2 class="testimonial__title">Instagram</h2>
+                  <p class="testimonial__description">
+                    Kunjungi halaman Instagram kami untuk melihat produk dan
+                    memesan secara langsung.
+                  </p>
+                </a>
+              </article>
+
+              <article class="testimonial__card swiper-slide">
+                <a
+                  href="https://www.tiktok.com/@sulis1780?_t=8iTCBHgYHMw&_r=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-tiktok-line"></i>
+                  <h2 class="testimonial__title">TikTok</h2>
+                  <p class="testimonial__description">
+                    Temukan kami di TikTok dan temukan cara mudah untuk
+                    melakukan pemesanan.
+                  </p>
+                </a>
+              </article>
+
+              <article class="testimonial__card swiper-slide">
+                <a
+                  href="https://wa.me/62895413427573"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-whatsapp-line"></i>
+                  <h2 class="testimonial__title">WhatsApp</h2>
+                  <p class="testimonial__description">
+                    Hubungi kami melalui WhatsApp untuk melakukan konsultasi dan
+                    pemesanan produk.
+                  </p>
+                </a>
+              </article>
+
+              <article class="testimonial__card swiper-slide">
+                <a
+                  href="https://www.instagram.com/onlyme_1512?igsh=MzJkZW1wc3d4cWdj"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-instagram-line"></i>
+                  <h2 class="testimonial__title">Instagram</h2>
+                  <p class="testimonial__description">
+                    Kunjungi halaman Instagram kami untuk melihat produk dan
+                    memesan secara langsung.
+                  </p>
+                </a>
+              </article>
+
+              <article class="testimonial__card swiper-slide">
+                <a
+                  href="https://www.tiktok.com/@sulis1780?_t=8iTCBHgYHMw&_r=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-tiktok-line"></i>
+                  <h2 class="testimonial__title">TikTok</h2>
+                  <p class="testimonial__description">
+                    Temukan kami di TikTok dan temukan cara mudah untuk
+                    melakukan pemesanan.
+                  </p>
+                </a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="container grid">
+          <div class="discount__data">
+            <h2 class="discount__title section__title">Tentang Saya</h2>
+
+            <p class="discount__description">
+              Saya Yandi Sulistiandi dengan NIM 2203040196. Saat ini saya tengah
+              kuliah semester 3 di Universitas Muhammadiyah Purwokerto, prodi
+              Teknik Informatika.<br />
+              Saya menyusun website ini dengan tujuan untuk melatih pemahaman
+              saya mengenai mata kuliah Pemrograman Web. Adapun tujuan lainnya
+              yaitu untuk memenuhi tugas akhir UAS mata kuliah Pemrograman Web.
+            </p>
+          </div>
+
+          <div class="about__images">
+            <img src="assets/FW/me.png" alt="image" class="about__img-1" />
+            <img
+              src="assets/FW/pernyataan.png"
+              alt="image"
+              class="about__img-2"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== JAVASCRIPT ====================-->
+      <section class="js section" id="js">
+        <div class="js__container container grid">
+          <div class="js__data">
+            <h2 class="js__title section__title">JavaScript</h2>
+
+            <div class="discount__images">
+              <img src="assets/FW/js.png" alt="image" class="js__img" />
+            </div>
+
+            <p class="js__description">
+              JavaScript adalah bahasa pemrograman yang sering digunakan untuk
+              mengembangkan aplikasi web interaktif. JavaScript merupakan bahasa
+              scripting yang berjalan di sisi klien (client-side), artinya kode
+              JavaScript dieksekusi di peramban web (browser) pengguna.
+              JavaScript memungkinkan pengembang untuk menambahkan
+              fungsionalitas dinamis ke halaman web, mengubah konten secara
+              dinamis, berinteraksi dengan pengguna, dan berkomunikasi dengan
+              server untuk mengambil atau mengirim data.
+            </p>
+
+            <p class="js__description">
+              Adapun JavaScript yang digunakan dalam website ini yaitu meliputi
+              : <br />
+              1. Night Mode <br />
+              2. Scroll Active Link <br />
+              3. Show Scroll Up <br />
+              4. Show and Hidden Menu <br />
+              5. Shadow Header <br />
+              6. Swiper Slide
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#testimonial" class="footer__logo">
+            <img
+              src="assets/FW/test2-removebg-preview.png"
+              alt="footer_image"
+            />
+            Fragrance World
+          </a>
+
+          <p class="footer__description">
+            Fragrance World merek parfum <br />
+            populer. Menawarkan berbagai <br />
+            macam wewangian untuk<br />
+            pria dan wanita.
+          </p>
+        </div>
+
+        <div class="footer__data grid">
+          <div>
+            <h3 class="footer__title">About</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#testimonial" class="footer__link">Awards</a>
+              </li>
+
+              <li>
+                <a href="#testimonial" class="footer__link">FAQs</a>
+              </li>
+
+              <li>
+                <a href="#testimonial" class="footer__link">Privacy Policy</a>
+              </li>
+
+              <li>
+                <a href="#testimonial" class="footer__link"
+                  >Terms of Services</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Company</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#testimonial" class="footer__link">Blogs</a>
+              </li>
+
+              <li>
+                <a href="#testimonial" class="footer__link">Community</a>
+              </li>
+
+              <li>
+                <a href="#testimonial" class="footer__link">Our Team</a>
+              </li>
+
+              <li>
+                <a href="#testimonial" class="footer__link">Help Center</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Contact</h3>
+
+            <ul class="footer__links">
+              <li>
+                <address class="footer__info">
+                  Yandi Sulistiandi <br />
+                  Tegal 52471, Indonesia
+                </address>
+              </li>
+
+              <li>
+                <address class="footer__info">
+                  secretonly901@gmail.com <br />
+                  0822-4216-2142
+                </address>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Social</h3>
+
+            <div class="footer__social">
+              <a
+                href="https://wa.me/62895413427573"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-whatsapp-line"></i>
+              </a>
+
+              <a
+                href="https://www.instagram.com/onlyme_1512?igsh=MzJkZW1wc3d4cWdj"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+
+              <a
+                href="https://www.tiktok.com/@sulis1780?_t=8iTCBHgYHMw&_r=1"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-tiktok-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <span class="footer__copy"> &#169; All Rights Reserved By Me </span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#testimonial" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
